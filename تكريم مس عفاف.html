@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="project/css.css">
+    <link rel="stylesheet" href="project/lightbox.min.css">
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js" ></script>
+    <title></title>
+    <style>
+        video{
+            width: 75%;
+            margin: 40px;
+            height: 600px;
+        }
+        body{
+            background-color: rgb(159, 168, 168);
+        }
+        img{
+            display: inline-block;
+            width: 200px;
+            height: 250px;
+            margin: 30px;
+        }
+        body{
+    font-family: "Roboto" sans-serif;
+}
+h1{
+    padding: 25px 0 25px;
+    text-align: center;
+    color: green;
+}
+#ho{
+    width: 250px;
+    height: 275px;
+    margin: 10px;
+}
+.gallery{
+    padding: 10px 30px;
+}
+.gallery img{
+    margin: 3px;
+    width: 630px;
+    padding: 10px;
+    transition: 1s;
+    filter: none;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+    </style>
+</head>
+<body>
+<center>
+    <video controls loop autplay src="images/1.mp4" ></video>
+</center>
+<div class="gallery">
+
+<a href="images/img1.jpeg" data-lightbox="Ah"><img src="images/img1.jpeg" id="ho"></a>
+<a href="images/img2.jpeg" data-lightbox="Ah"><img src="images/img2.jpeg" id="ho"></a>
+<a href="images/img3.jpeg" data-lightbox="Ah"><img src="images/img3.jpeg" id="ho"></a>
+<a href="images/img5.jpeg" data-lightbox="Ah"><img src="images/img5.jpeg" id="ho"></a>
+<a href="images/img6.jpeg" data-lightbox="Ah"><img src="images/img6.jpeg" id="ho"></a>
+
+</div>
+
+</body>
+
+</html>

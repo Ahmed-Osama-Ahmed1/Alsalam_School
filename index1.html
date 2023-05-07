@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mobile-container {
+   margin: auto;
+   width: 100%;
+  background-color: #555;
+  height: 100%;
+
+  color: white;
+  border-radius: 10px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+*{
+  padding: 0.5px;
+  margin: 0;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+
+}
+.topnav #myLinks {
+  display: none;
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.active {
+  background-color: #04AA6D;
+  color: white;
+  position: relative;
+
+}
+img{
+    width: 100%;
+    height: 730px;
+    opacity: 0.8;
+}
+.icon{
+    cursor: pointer;
+    background-color: black;
+    transition: 3s;
+    margin: 1px;
+    margin-bottom: 3px;
+    width: 10px;
+    height: 15px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-right: 2px;
+}
+.icon:hover{
+  background-color: #271313;
+}
+</style>
+</head>
+<body>
+<div class="mobile-container">
+<div class="topnav">
+  <a href="#home" class="active">Alsalam School</a>
+  <div style="height: 100vh;" id="myLinks">
+
+    <a style="font-size: 25px; font-weight: 600; margin-top: 25px; padding: 5px;" target="_blank" dir="rtl" href="https://moe.gov.eg/"> موقع وزاره التربيه والتعليم</a>
+    <a style="font-size: 25px; font-weight: 600; margin-top: 25px; padding: 5px;" target="_blank" dir="rtl" href="https://www.facebook.com/groups/122018051487023/?ref=share"> حساب المدرسه على الفيسبوك</a>
+    <a style="font-size: 25px; font-weight: 600; margin-top: 25px; padding: 5px;" target="_blank" dir="rtl" href="file:///E:/School%20Project/Supervising%20models%20from%20the%20school.html">نمازج مشرفه تخرجت من المدرسه</a>
+    <a style="font-size: 25px; font-weight: 600; margin-top: 25px; padding: 5px;" target="_blank" dir="rtl" href="https://study.ekb.eg/">مناهج الطلبه</a>
+    <a style="font-size: 25px; font-weight: 600; margin-top: 25px; padding: 5px;" target="_blank" dir="rtl" href="file:///E:/School%20Project/images.html">البوم الصور</a>
+    <a style="font-size: 25px; font-weight: 600; margin-top: 25px; padding: 5px;" target="_blank" dir="rtl" href="file:///E:/School%20Project/%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D9%85%D8%B9%20%D9%85%D8%B9%D9%84%D9%85%D9%83.html">تواصل مع معلمك</a>
+    <a style="font-size: 25px; font-weight: 600; margin-top: 25px; padding: 5px;" target="_blank" dir="rtl" href="file:///E:/School%20Project/%D8%AA%D9%83%D8%B1%D9%8A%D9%85%20%D9%85%D8%B3%20%D8%B9%D9%81%D8%A7%D9%81.html">تكريم مس عفاف</a>
+    <a style="font-size: 25px; font-weight: 600; margin-top: 25px; padding: 5px;" target="_blank" dir="rtl" href="file:///E:/School%20Project/information.html">معلومات عن المدرسه</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</div>
+<img src="images/صوره المدرسه.jpeg" alt="">
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
